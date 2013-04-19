@@ -1,4 +1,3 @@
-
 /**
  * Will execute the callback with a (factor) increasing delay
  * @param function callback
