@@ -60,7 +60,7 @@ var ProgressiveTimeout = function(callback, min, max, incrementFactor)
     {
         if (this.currentDelay) this.currentDelay = this.currentDelay * this.incrementFactor;
         if (!this.currentDelay || this.currentDelay < this.min) this.currentDelay = this.min;
-        if (this.currentDelay > this.max) this.currentDelay = max;
+        if (this.currentDelay > this.max) this.currentDelay = this.max;
         return this;
     }
     /**
