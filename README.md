@@ -37,10 +37,12 @@ starting the next iteration (thus somewhat adapting to the server load).
 jQuery example:
 
 ```javascript
-var t = new ProgressiveTimeout(function(){ console.log(':)') }, 50, 4000,2);
-$.get('/get-me-a-sandwich.php').done(function(data){
-    // .. do something with the data
-    t.next();
-});
+var t = new ProgressiveTimeout(function(){ 
+    $.get('/get-me-a-sandwich.php').done(function(data){
+        // .. do something with the data
+        t.next();
+    });    
+}, 50, 4000,2);
+
 
 ```
