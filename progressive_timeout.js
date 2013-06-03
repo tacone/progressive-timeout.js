@@ -4,7 +4,7 @@
  * 
  * Please read the DOCS at https://github.com/tacone/progressive-timeout.js/blob/master/README.md
  * 
- * This file comes as it is, it could screw up your business or life, I shall not held responsible of anything.
+ * This file comes as it is, it could screw up your business or life, I shall not be held responsible of anything.
  */
 var ProgressiveTimeout = function(callback, min, max, incrementFactor)
 {
