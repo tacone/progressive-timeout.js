@@ -74,4 +74,4 @@ var ProgressiveTimeout = function(callback, min, max, incrementFactor)
     }
 
     return this;
-}
+};
